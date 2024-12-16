@@ -54,7 +54,7 @@ const page = () => {
             </Link>
 
             <p className={styles.last_link}>
-              Don’t have an account?{" "}
+              Donot have an account?{" "}
               <Link className={styles.link} href="/signup">
                 Create account
               </Link>

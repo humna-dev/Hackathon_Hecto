@@ -13,7 +13,7 @@ const ContactPage = () => {
             We&rsquo;d Love to Hear from You!
           </h1>
           <p className="text-xl text-center mt-2">
-            Your inquiries are important to us. Reach out and we&rsquo;ll get back to you shortly.
+            Your inquiries are important to us. Reach out and we will get back to you shortly.
           </p>
         </div>
       </div>
@@ -25,7 +25,7 @@ const ContactPage = () => {
               <div className="w-full md:w-1/2">
                 <h2 className="text-3xl font-bold text-primary mb-6">Who We Are</h2>
                 <p className="text-lg text-muted">
-                  We are a passionate team dedicated to providing top-notch services. Whether you're
+                  We are a passionate team dedicated to providing top-notch services. Whether you are
                   looking for assistance or information, we're here to help.
                 </p>
                 <div className="flex gap-6 mt-6">

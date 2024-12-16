@@ -1,0 +1,155 @@
+.abcd{
+    padding: 60px 150px;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(224, 224, 224);
+}
+.efgh{
+    padding: 30px 20px;   
+}
+@media(max-width: 600px){
+    .abcd{
+        padding: 50px 50px;
+    }
+}
+@media(max-width: 400px){
+    .abcd{
+        padding: 30px 30px;
+    }
+}
+.login {
+    /* border: 1px solid black; */
+    padding: 60px 150px;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(224, 224, 224);
+  }
+  .page {
+    /* border: 1px solid black; */
+    padding: 30px 20px;
+  }
+  @media (max-width: 600px) {
+    .login {
+      padding: 50px 50px;
+    }
+  }
+  @media (max-width: 400px) {
+    .login {
+      padding: 30px 30px;
+    }
+  }
+  
+  .main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #333;
+    text-align: center;
+  }
+  
+  .para {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .input_div {
+    position: relative;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    border-bottom: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input:focus {
+    box-shadow: 0 0 6px rgba(197, 10, 119, 0.3);
+  }
+  
+  .btn {
+    background-color: #0fcaeb;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .btn:hover {
+    background-color: #e0068d;
+    width: 200px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+      margin: 20px;
+      height: 55px;
+      text-align:center;
+      border: none;
+      background-size: 300% 100%;
+      border-radius: 50px;
+      transition: all .4s ease-in-out;
+  }
+  
+  .btn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .last_link {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: bolder;
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 1.5rem;
+    }
+  
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .para {
+      font-size: 0.9rem;
+    }
+  
+    .input,
+    .btn {
+      font-size: 0.9rem;
+      padding: 0.6rem;
+    }
+  }
+  

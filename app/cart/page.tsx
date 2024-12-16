@@ -1,6 +1,7 @@
 import styles from "./cart.module.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import Image from 'next/image';  // Import Image component
 
 const page = () => {
   return (
@@ -30,9 +31,11 @@ const page = () => {
                 <tbody className="bg-white divide-y">
                   <tr>
                     <td className="p-4 flex items-center">
-                      <img
+                      <Image
                         src="https://via.placeholder.com/60"
                         alt="Product"
+                        width={60}    // Specify width
+                        height={60}   // Specify height
                         className="w-12 h-12 rounded-md mr-4"
                       />
                       <div>
@@ -56,9 +59,11 @@ const page = () => {
                 <tbody className="bg-white divide-y">
                   <tr>
                     <td className="p-4 flex items-center">
-                      <img
+                      <Image
                         src="https://via.placeholder.com/60"
                         alt="Product"
+                        width={60}
+                        height={60}
                         className="w-12 h-12 rounded-md mr-4"
                       />
                       <div>
@@ -78,12 +83,15 @@ const page = () => {
                     </td>
                     <td className="p-4">$53.00</td>
                   </tr>
-                </tbody>  <tbody className="bg-white divide-y">
+                </tbody>
+                <tbody className="bg-white divide-y">
                   <tr>
                     <td className="p-4 flex items-center">
-                      <img
+                      <Image
                         src="https://via.placeholder.com/60"
                         alt="Product"
+                        width={60}
+                        height={60}
                         className="w-12 h-12 rounded-md mr-4"
                       />
                       <div>

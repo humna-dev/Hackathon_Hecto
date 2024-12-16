@@ -9,9 +9,11 @@ const ContactPage = () => {
       <Navbar />
       <div className={styles.header}>
         <div className={styles.titleContainer}>
-          <h1 className="text-5xl font-bold text-center">We’d Love to Hear from You!</h1>
+          <h1 className="text-5xl font-bold text-center">
+            We&rsquo;d Love to Hear from You!
+          </h1>
           <p className="text-xl text-center mt-2">
-            Your inquiries are important to us. Reach out and we’ll get back to you shortly.
+            Your inquiries are important to us. Reach out and we&rsquo;ll get back to you shortly.
           </p>
         </div>
       </div>

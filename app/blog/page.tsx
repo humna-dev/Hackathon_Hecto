@@ -1,9 +1,10 @@
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
+import Image from 'next/image'; // Import Image component from Next.js
 
 const BlogPage = () => {
   const furnitureImages = [
- "/images/file-four/Leatest blog (1).png",
+    "/images/file-four/Leatest blog (1).png",
     "/images/file-four/Leatest blog (2).png",
     "/images/file-four/Leatest blog.png",
   ];
@@ -24,9 +25,11 @@ const BlogPage = () => {
               key={index}
               className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-200"
             >
-              <img
+              <Image
                 src={image}
                 alt={`Furniture ${index + 1}`}
+                width={500}  // Adjust width as per your requirement
+                height={300} // Adjust height as per your requirement
                 className="w-full h-72 object-cover"
               />
             </div>

@@ -139,27 +139,27 @@ const Footer = () => {
 
       <hr />
       <span className={styles.copyright}>
-        &copy;copyright Muhammad Faizan 2024. All right reserved
+        &copy;copyright 2024. All right reserved
       </span>
       <div className="flex justify-evenly text-center">
         <div className={styles.social_icon_div}>
           <span className={styles.icon_}>
             <Link
               className={styles.Links}
-              href={"https://web.facebook.com/faizan.soomro.963"}
+              href={"https://web.facebook.com"}
             >
               <FaFacebookF />
             </Link>
           </span>
           <span className={styles.icon_}>
-            <Link className={styles.Links} href={"https://x.com/muhammadf4060"}>
+            <Link className={styles.Links} href={"https://x.com"}>
               <SlSocialTwitter />
             </Link>
           </span>
           <span className={styles.icon_}>
             <Link
               className={styles.Links}
-              href={"https://www.instagram.com/fazii.963/"}
+              href={"https://www.instagram.com"}
             >
               <FiInstagram />
             </Link>
@@ -167,7 +167,7 @@ const Footer = () => {
           <span className={styles.icon_}>
             <Link
               className={styles.Links}
-              href={"https://www.linkedin.com/in/muhammad-faizan-2541132b8"}
+              href={"https://www.linkedin.com"}
             >
               <ImLinkedin2 />
             </Link>

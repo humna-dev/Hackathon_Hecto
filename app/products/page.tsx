@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer/Footer';
 import Navbar from '@/components/Navbar/Navbar';
 import styles from './products.module.css';
+import Image from 'next/image';  // Import Next.js Image component
 
 const products = [
   {
@@ -48,9 +49,11 @@ const Page = () => {
         <div className="bg-rose-50 py-12 px-4">
           <h2 className="text-3xl font-semibold text-center mb-8">Featured Product</h2>
           <div className="max-w-5xl mx-auto flex flex-wrap items-center gap-8">
-            <img
+            <Image
               src="/images/file-two/ComfortHandlyCraft6.png"
               alt="Featured Product"
+              width={384} // Add width
+              height={300} // Add height
               className="w-96 h-auto rounded-lg shadow-md"
             />
             <div>
@@ -77,9 +80,11 @@ const Page = () => {
                 key={product.id}
                 className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
               >
-                <img
+                <Image
                   src={product.image}
                   alt={product.name}
+                  width={384} // Set width for each image
+                  height={300} // Set height for each image
                   className="w-full h-48 object-cover rounded-t-lg"
                 />
                 <div className="p-4">

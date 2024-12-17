@@ -39,7 +39,7 @@ const page = () => {
               </span>
               <span className={styles.desc_div}>
                 <h1 className="text-xl font-semibold">
-                  Accumsan tincidunt 🟡🔴🔵
+                  Accumsan tincidunt 🟥 🟧 🟨 
                 </h1>
                 <div className={styles.info}>
                   <span className="text-sm font-semibold">$26.00</span>
@@ -74,7 +74,7 @@ const page = () => {
               </span>
               <span className={styles.desc_div}>
                 <h1 className="text-xl font-semibold">
-                  Accumsan tincidunt 🟡🔴🔵
+                  Accumsan tincidunt 🟥 🟧 🟨 
                 </h1>
                 <div className={styles.info}>
                   <span className="text-sm font-semibold">$26.00</span>
@@ -109,7 +109,7 @@ const page = () => {
               </span>
               <span className={styles.desc_div}>
                 <h1 className="text-xl font-semibold">
-                  Accumsan tincidunt 🟡🔴🔵
+                  Accumsan tincidunt 🟥 🟧 🟨 
                 </h1>
                 <div className={styles.info}>
                   <span className="text-sm font-semibold">$26.00</span>
@@ -179,7 +179,7 @@ const page = () => {
               </span>
               <span className={styles.desc_div}>
                 <h1 className="text-xl font-semibold">
-                  Accumsan tincidunt 🟡🔴🔵
+                  Accumsan tincidunt 🟥 🟧 🟨 
                 </h1>
                 <div className={styles.info}>
                   <span className="text-sm font-semibold">$26.00</span>
@@ -214,7 +214,7 @@ const page = () => {
               </span>
               <span className={styles.desc_div}>
                 <h1 className="text-xl font-semibold">
-                  Accumsan tincidunt 🟡🔴🔵
+                  Accumsan tincidunt 🟥 🟧 🟨 
                 </h1>
                 <div className={styles.info}>
                   <span className="text-sm font-semibold">$26.00</span>
@@ -249,7 +249,7 @@ const page = () => {
               </span>
               <span className={styles.desc_div}>
                 <h1 className="text-xl font-semibold">
-                  Accumsan tincidunt 🟡🔴🔵
+                  Accumsan tincidunt 🟥 🟧 🟨 
                 </h1>
                 <div className={styles.info}>
                   <span className="text-sm font-semibold">$26.00</span>

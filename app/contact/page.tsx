@@ -10,7 +10,7 @@ const ContactPage = () => {
       <div className={styles.header}>
         <div className={styles.titleContainer}>
           <h1 className="text-5xl font-bold text-center">
-            We&rsquo;d Love to Hear from You!
+            We Love to Hear from You!
           </h1>
           <p className="text-xl text-center mt-2">
             Your inquiries are important to us. Reach out and we will get back to you shortly.
@@ -26,7 +26,7 @@ const ContactPage = () => {
                 <h2 className="text-3xl font-bold text-primary mb-6">Who We Are</h2>
                 <p className="text-lg text-muted">
                   We are a passionate team dedicated to providing top-notch services. Whether you are
-                  looking for assistance or information, we're here to help.
+                  looking for assistance or information, we are here to help.
                 </p>
                 <div className="flex gap-6 mt-6">
                   <span className="w-5 h-5 rounded-full bg-indigo-500"></span>
@@ -39,7 +39,7 @@ const ContactPage = () => {
                 <h2 className="text-3xl font-bold text-primary mb-6">Our Contact Information</h2>
                 <ul className="space-y-5 text-lg text-muted">
                   <li>
-                    <span className="font-semibold">Phone:</span> +92-340-12345-67
+                    <span className="font-semibold">Phone:</span> 021 111 144 111
                   </li>
                   <li>
                     <span className="font-semibold">Email:</span> contact@oursite.com
